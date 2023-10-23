@@ -1,4 +1,4 @@
-// katalog.cpp: определяет точку входа для консольного приложения.
+// katalog.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
@@ -50,6 +50,7 @@ void processDirectory(const std::string& directoryPath)
 
 int main() 
 {
+	printf("Hello World");
     std::string directoryPath = "D:\DOS";
     processDirectory(directoryPath);
 
