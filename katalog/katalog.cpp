@@ -50,9 +50,9 @@ void processDirectory(const std::string& directoryPath)
 
 int main() 
 {
-	printf("Hello World");
     std::string directoryPath = "D:\DOS";
     processDirectory(directoryPath);
+    printf("Checkout");
 
     return 0;
 }
